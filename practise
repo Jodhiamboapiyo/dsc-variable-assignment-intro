@@ -1,0 +1,300 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMSYTdWUVpbkhgHqHzdoEc9",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Jodhiamboapiyo/dsc-variable-assignment-intro/blob/master/practise\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "TvaWxWdvIXZZ"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# let us say that my email address is joselineapiyo@gmail.com\n",
+        "#now say this, right an email to me next week 'monday\"\n",
+        "\n",
+        "week = \"Monday\"\n",
+        "\n",
+        "email = \"joselineapiyo@gmail.com\"\n",
+        "print(\"Write an email to me on\", week, \"to my email\", email)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "oWJdrAUlKwbs",
+        "outputId": "7697e221-4cda-41e6-816b-a7442704f948"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Write an email to me on Monday to my email joselineapiyo@gmail.com\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "travel_month = 'January'\n",
+        "number_of_weeks = 5\n",
+        "print(\"I will be travelling for\", number_of_weeks, \"in the month of;\",travel_month)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "E868n_rsomMu",
+        "outputId": "df487bd1-2432-4faa-b526-f8fe4570ae6c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I will be travelling for 5 in the month of; January\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "\n",
+        "total_number_of_days = 30\n",
+        "\n",
+        "vacation_month = \"march\"\n",
+        "\n",
+        "#I will be going for my vacation in march for 30 days in 5 weeks\n",
+        "\n",
+        "print(f\"I will be going for my vacation in, {total_number_of_days}, in the month of, vacation_month\")\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TIt4s3xttS1R",
+        "outputId": "9e84cc51-8337-4dc9-9de3-d99e54aa60b7"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I will be going for my vacation in, 30, in the month of, vacation_month\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age = 20\n",
+        "name = \"john\"\n",
+        "print(f\"{name} is {age} years old\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YefpABbNzu_c",
+        "outputId": "14c1c1a3-479d-4ee7-8803-4087718e4bb2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "john is 20 years old\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "countries = ["
+      ],
+      "metadata": {
+        "id": "xoOwiSyvas_S"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = 1\n",
+        "while num <= 5:\n",
+        "  print(num)\n",
+        "  num += 1\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "i8EbcupduDPJ",
+        "outputId": "2a772709-cb88-4725-fa1f-42eed8e329f6"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\n",
+        "for row in matrix:\n",
+        "    for num in row:\n",
+        "        print(num)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wrrBZCdcuDY_",
+        "outputId": "b20c23f5-5e27-4d0c-d39c-d702c2c5b99b"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n",
+            "6\n",
+            "7\n",
+            "8\n",
+            "9\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = 2\n",
+        "while num <= 100:\n",
+        "    print(num)\n",
+        "    num += 2"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ukriVDcYy3wx",
+        "outputId": "aa0b09bc-7d40-4d26-b695-7a7f3ee224ba"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2\n",
+            "4\n",
+            "6\n",
+            "8\n",
+            "10\n",
+            "12\n",
+            "14\n",
+            "16\n",
+            "18\n",
+            "20\n",
+            "22\n",
+            "24\n",
+            "26\n",
+            "28\n",
+            "30\n",
+            "32\n",
+            "34\n",
+            "36\n",
+            "38\n",
+            "40\n",
+            "42\n",
+            "44\n",
+            "46\n",
+            "48\n",
+            "50\n",
+            "52\n",
+            "54\n",
+            "56\n",
+            "58\n",
+            "60\n",
+            "62\n",
+            "64\n",
+            "66\n",
+            "68\n",
+            "70\n",
+            "72\n",
+            "74\n",
+            "76\n",
+            "78\n",
+            "80\n",
+            "82\n",
+            "84\n",
+            "86\n",
+            "88\n",
+            "90\n",
+            "92\n",
+            "94\n",
+            "96\n",
+            "98\n",
+            "100\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
